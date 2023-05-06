@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Titanium Vault Studios</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Titanium Vault Studios</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#games">Games</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="banner">
+			<h2>Welcome to Titanium Vault Studios</h2>
+			<p>We are an indie video game studio dedicated to creating unique and immersive gaming experiences.</p>
+			<a href="#games" class="cta-button">View Our Games</a>
+		</section>
+
+		<section id="about">
+			<h2>About Us</h2>
+			<p>At Titanium Vault Studios, we are passionate about video games and are committed to creating high-quality, engaging games for players of all ages. Our team of experienced developers and designers work tirelessly to bring our ideas to life, and we pride ourselves on our attention to detail and dedication to excellence.</p>
+			<p>Our focus is on creating games with unique gameplay mechanics, compelling narratives, and immersive worlds that players can truly get lost in. We believe that video games have the power to transport people to new worlds, spark their imaginations, and provide endless hours of entertainment.</p>
+		</section>
+
+		<section id="games">
+			<h2>Our Games</h2>
+			<ul>
+					<li>
+						<div class="game-card">
+							<img src="game1.jpg" alt="Game 1">
+							<h3>Game 1</h3>
+							<p>A fast-paced action game set in a post-apocalyptic world.</p>
+						</div>
+					</li>
+					<li>
+						<div class="game-card">
+							<img src="game2.jpg" alt="Game 2">
+							<h3>Game 2</h3>
+							<p>A puzzle-platformer game with a charming, hand-drawn art style.</p>
+						</div>
+					</li>
+					<li>
+						<div class="game-card">
+							<img src="game3.jpg" alt="Game 3">
+							<h3>Game 3</h3>
+							<p>An open-world exploration game set in a fantastical world filled with magic and mystery.</p>
+						</div>
+					</li>
+				</ul>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Titanium Vault Studios. All rights reserved.</p>
+	</footer>
+</body>
+</html
