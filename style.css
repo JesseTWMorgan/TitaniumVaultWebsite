@@ -19,7 +19,7 @@ body {
 
 .logo img {
   height: 150px; /* adjust to the appropriate height */
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .banner {
