@@ -19,6 +19,8 @@ body {
 
 .logo img {
   height: 150px; /* adjust to the appropriate height */
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
 }
 
