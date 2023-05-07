@@ -19,8 +19,6 @@ body {
 
 .logo img {
   height: 150px; /* adjust to the appropriate height */
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -46,12 +44,13 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	padding: 0px 0px;
+	padding: 0px 20px;
 	z-index: 999;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	color: #fff;
+	font-size: 25px;
 }
 
 nav ul {
