@@ -19,7 +19,22 @@ body {
 
 .logo img {
   height: 1000px; /* adjust to the appropriate height */
-  margin: 0 auto;
+  margin: 10px;
+}
+
+.banner {
+  background-image: url(images/banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* adjust to the appropriate height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  text-align: center;
+  color: #fff;
 }
 
 header {
