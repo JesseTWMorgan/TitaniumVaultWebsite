@@ -46,7 +46,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 80px 20px;
+  padding: 80px 40px;
   z-index: 999;
   display: flex;
   align-items: center; /* add this line to center items vertically */
@@ -56,7 +56,8 @@ header {
 
 h1 {
   flex-grow: 1; /* add this line to take up remaining space */
-  text-align: center; /* add this line to center the h1 element */
+  text-align: left; /* add this line to center the h1 element */
+  margin-left: 140px;
 }
 
 nav {
