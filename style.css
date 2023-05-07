@@ -49,12 +49,20 @@ header {
   padding: 40px 20px;
   z-index: 999;
   display: flex;
-  justify-content: center;
   color: #fff;
   font-size: 16px;
-  margin-left: 80px;
 }
 
+h1 {
+  display: flex;
+  justify-content: right;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+}	
+	
 nav ul {
 	display: flex;
 }
