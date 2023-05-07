@@ -46,10 +46,9 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 40px 20px;
+  padding: 80px 20px;
   z-index: 999;
   display: flex;
-  justify-content: space-between; /* add this line to space items evenly */
   align-items: center; /* add this line to center items vertically */
   color: #fff;
   font-size: 16px;
