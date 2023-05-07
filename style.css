@@ -45,11 +45,10 @@ header {
   position: relative;
   top: 0;
   left: 0;
-  right: 0;
+  right: 80;
   padding: 40px 20px;
   z-index: 999;
   display: flex;
-  align-items: center;
   color: #fff;
   font-size: 16px;
   margin-left 80px;
